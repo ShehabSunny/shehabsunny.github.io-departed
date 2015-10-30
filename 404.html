@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 
-<html lang="en" ng-controller="fourofourController">
+<html lang="en" ng-app="sunnyApp">
 
 	<head>
 		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<base href="/">
 		<meta content="utf-8" http-equiv="encoding">
-
-	<title>SunNy</title>
+    <script src='res/js/angular.min.js'></script>
+    <script src='res/js/angular-route.min.js'></script>
+    <script src='res/js/app.js'></script>
+		<title>SunNy</title>
 	</head>
 
 	<body>
-		<div style="text-align: center">
-			nothing found here!
+		<div ng-view>
+
 		</div>
 	</body>
 </html>
