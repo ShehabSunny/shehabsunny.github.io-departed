@@ -19,7 +19,12 @@ app.config(['$routeProvider','$locationProvider',
 
 
 app.controller('homeController', function($scope,$http){
-  
+
+});
+
+app.controller('fourofourController', function($scope,$http){
+  var path = $location.path();
+  $window.location.href = '/#/'+path;
 });
 
 app.controller('aboutController', function($scope,$http){
