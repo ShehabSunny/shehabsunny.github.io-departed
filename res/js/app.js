@@ -1,7 +1,7 @@
 var app = angular.module('sunnyApp',['ngRoute']);
 
-app.config(['$routeProvider',
-  function($routeProvider) {
+app.config(['$routeProvider','$locationProvider',
+  function($routeProvider,$locationProvider) {
     $routeProvider.
       when('/', {
         templateUrl: 'res/views/home.html',
@@ -14,6 +14,7 @@ app.config(['$routeProvider',
       otherwise({
         redirectTo: '/'
       });
+	  $locationProvider.html5Mode(true);
 }]);
 
 
