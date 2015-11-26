@@ -7,7 +7,7 @@ app.config(['$routeProvider','$locationProvider',
         templateUrl: 'res/views/hi.html',
         controller: 'homeController'
       }).
-      when('/about-me', {
+      when('/about', {
         templateUrl: 'res/views/about-me.html',
         controller: 'aboutController'
       }).
