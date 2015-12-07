@@ -50,21 +50,21 @@ app.controller('homeController', function($scope,$http){
 
   function show_skill(){
     if(showSkill){
-      TweenMax.staggerFrom(".skill", 2, {scale:0.5, opacity:0, delay:1, ease:Elastic.easeOut, force3D:true}, 0.2);
+      TweenMax.staggerFrom(".skill", 2, {scale:0.5, opacity:0, delay:0.6, ease:Elastic.easeOut, force3D:true}, 0.2);
     }
     showSkill=false;
   }
 
   function show_project(){
     if(showProject){
-      TweenMax.staggerFrom(".project", 2, {scale:0.5, opacity:0, delay:1, ease:Elastic.easeOut, force3D:true}, 0.2);
+      TweenMax.staggerFrom(".project", 2, {scale:0.5, opacity:0, delay:0.6, ease:Elastic.easeOut, force3D:true}, 0.2);
     }
     showProject=false;
   }
 
   function show_education(){
     if(showEducation){
-      TweenMax.staggerFrom(".education", 3, {scale:0.5, opacity:0, delay:1, ease:Elastic.easeOut, force3D:true}, 0.2);
+      TweenMax.staggerFrom(".education", 3, {scale:0.5, opacity:0, delay:0.6, ease:Elastic.easeOut, force3D:true}, 0.2);
     }
     showEducation=false;
   }
