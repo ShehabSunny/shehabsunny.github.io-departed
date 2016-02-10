@@ -2,12 +2,12 @@ body{
     color: #E3E3E3;
 }
 div.box div.well {
-    background-color: #4CAF50;
+    background-color: #9E9E9E;
     border: 0px;
     border-radius: 0px;
 }
 div#box div.well {
-    background-color: #4CAF50;
+    background-color: #9E9E9E;
     border: 0px;
     border-radius: 0px;
 }
@@ -37,7 +37,7 @@ div#box div.well h3 {
 }
 
 div.box-sm div.well {
-    background-color: #4CAF50;
+    background-color: #9E9E9E;
     border: 0px;
     border-radius: 0px;
 }
@@ -70,11 +70,11 @@ div.box-sm div.well img {
 }
 
 .navbar{
-    background-color:#4CAF50;
+    background-color:#9E9E9E;
     height: 100px;
 }
 .navbar2{
-    background-color: #388E3C;
+    background-color: #616161;
     height: 60px;
 }
 .navbar{
