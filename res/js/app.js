@@ -11,6 +11,10 @@ app.config(['$routeProvider','$locationProvider',
         templateUrl: 'res/views/about-me.html',
         controller: 'aboutController'
       }).
+      when('/resume', {
+        templateUrl: 'res/views/resume.html',
+        controller: 'resumeController'
+      }).
       otherwise({
         redirectTo: '/'
       });
@@ -123,4 +127,7 @@ app.controller('fourofourController', function($scope,$http){
 
 app.controller('aboutController', function($scope,$http){
   $scope.name = "SunNy";
+});
+
+app.controller('resumeController', function($scope,$http){
 });
